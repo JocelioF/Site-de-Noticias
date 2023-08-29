@@ -73,3 +73,45 @@ body.fotos #navegacao a#fotos {
     background: #de003e;
     cursor: text;
 }
+
+/* layout tr~es colunas */
+
+#conteudo {
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+#primario {
+    width: 285px;
+    background: blue;
+    margin: 0 0 20px 215px;
+    float: left;
+}
+
+#secundario {
+    width: 285px;
+    background: green;
+    margin: 0 0 20px 15px;
+    float: left;
+}
+
+#lateral {
+    width: 200px;
+    float: left;
+    margin: 0 0 20px -800px;
+    background: yellow;
+}
+
+/* rodapé */
+
+#container-rodape {
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape {
+    width: 800px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
